@@ -1,0 +1,68 @@
+A.difference between Browser JS(console) vs Nodejs.?
+
+1.node js is using on v8 but the browsers is differ with our own engine (ex ; safari is working on webKit)
+2.node js only a java script environment but browser js javascript is one of the part ,it's also wroking on retering engine so webpage shown
+3.node js os mostly using on backend developers(sever side) and browser is frontend development(clint side) but both are runs at javascript
+4.node js is runs in outside over the browser but browser only runs at only a browser engine
+5.the node js not comfortable for using HTML links but browser side is enough to adding a HTML Links 
+
+B.summery of video about how is working on browser;
+1.the parse our css and our HTML that creating a DOM tree
+2.the DOM tree then gets converted in to render tree,so the CSS the HTML combined.
+3.it's actually 4 trees 
+               A.the layer
+               B.the line boxes
+               C.the render objects
+               D.the render styles
+4.so layout is a process where it computes where the elements will appear onthe page
+5.the combination on CSS and other element to process and produce the final out images or web pages
+C.Execute the below code and write your description in txt file
+
+1.typeof(1)
+ans ; number
+code; console.log(typeof(1));
+
+
+2.typeof(1.1)
+ans;number
+code; console.log(typeof(1.1));
+
+
+
+3.typeof('1.1')
+ans;string
+code; console.log(typeof("1.1"));
+
+
+
+4.typeof(true)
+ans;boolean
+code; console.log(typeof(false));
+
+
+
+5.typeof(null)
+ans;object
+code; console.log(typeof(null));
+
+
+
+6.typeof(undefined)
+ans;undifined
+code; console.log(typeof(undefined));
+
+7.typeof([])
+ans;object
+code; console.log(typeof(null));
+
+
+
+8.typeof({})
+ans;object
+code; console.log(typeof(null));
+
+
+9.typeof(NaN)
+ans;number
+code; console.log(typeof(number));
+
